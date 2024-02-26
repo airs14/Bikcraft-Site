@@ -83,7 +83,7 @@ a {
   margin: 40px;
   padding: 10px;
   text-align: right; /*Me explique isso*/
-  align-items: center; /*Me explique isso*/
+  align-self: center; /*Me explique isso*/
   color: #c6c6c6;
 
 }
@@ -109,3 +109,9 @@ footer {
   gap: 10px 20px; /*Me explique isso*/
   padding: 20px;
 }
+
+.vantagens-item p {
+  grid-column: 2; /*Me explique isso*/  
+}
+
+body, p, h1, h2, h3 { margin: 0; }
